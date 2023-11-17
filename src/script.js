@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to initialize the application
     function initializeApp() {
-        Papa.parse('./results.csv', {
+        Papa.parse('./results-2.csv', {
             download: true,
             header: true,
             dynamicTyping: true,
